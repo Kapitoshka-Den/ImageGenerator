@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGenerator", "ImageGenerator\ImageGenerator.csproj", "{E60CD5BC-5897-4F75-B23E-15EF3BC2305C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateImagesAPI", "GenerateImagesAPI\GenerateImagesAPI.csproj", "{78A825D2-05A9-4A70-BD6D-774F5C052EBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E6FAEC7F-EB75-40BD-AE8C-42C47F9D81EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{4D9E72BA-84F0-4379-ADCF-6095FA5B9943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E60CD5BC-5897-4F75-B23E-15EF3BC2305C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60CD5BC-5897-4F75-B23E-15EF3BC2305C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60CD5BC-5897-4F75-B23E-15EF3BC2305C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60CD5BC-5897-4F75-B23E-15EF3BC2305C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A825D2-05A9-4A70-BD6D-774F5C052EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A825D2-05A9-4A70-BD6D-774F5C052EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A825D2-05A9-4A70-BD6D-774F5C052EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A825D2-05A9-4A70-BD6D-774F5C052EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9E72BA-84F0-4379-ADCF-6095FA5B9943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9E72BA-84F0-4379-ADCF-6095FA5B9943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9E72BA-84F0-4379-ADCF-6095FA5B9943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9E72BA-84F0-4379-ADCF-6095FA5B9943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78A825D2-05A9-4A70-BD6D-774F5C052EBC} = {E6FAEC7F-EB75-40BD-AE8C-42C47F9D81EC}
+		{4D9E72BA-84F0-4379-ADCF-6095FA5B9943} = {E6FAEC7F-EB75-40BD-AE8C-42C47F9D81EC}
+	EndGlobalSection
+EndGlobal

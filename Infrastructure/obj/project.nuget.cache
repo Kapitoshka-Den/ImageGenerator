@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aEEQ1sB6KRs0tRXbLGp5AbNRGyvNz+WwE8aFO4x5WlzdgjKcjMQhQG4QrkEXd3/8uQxmdq3AAmQW/DgDx/QIZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Garveks\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Garveks\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Garveks\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

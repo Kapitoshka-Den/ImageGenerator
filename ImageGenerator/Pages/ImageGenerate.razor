@@ -1,0 +1,64 @@
+@page "/"
+@using GenerateImagesAPI.Models
+
+<h3>ImageGenerate</h3>
+
+<MudElement HtmlTag="div"
+            Class="d-flex flex-column pa-3">
+    <MudPaper Class="d-flex flex-column pa-2">
+        <MudElement HtmlTag="div" Class="d-flex flex-grow-1 gap-3">
+            <MudTextField @bind-Value="_imageSettings.Prompt"
+                          For="@(() => _imageSettings.Prompt)"
+                          Label="Промты"
+                          Placeholder="Промты (ключевые слова для генерации, на английском)"
+                          Style="flex-grow: 3"
+                          Variant="Variant.Outlined"/>
+            <MudSelect T="string"
+                       Value="@_selectedScreen"
+                       Label="Размер изображения"
+                       ValueChanged="@(value => _selectedScreen = value)"
+                       Style="flex-grow: 1"
+                       Variant="Variant.Outlined">
+                <MudSelectItem T="string" Value="@("128 x 128")">128 x 128</MudSelectItem>
+                <MudSelectItem T="string" Value="@("256 x 256")">256 x 256</MudSelectItem>
+                <MudSelectItem T="string" Value="@("512 x 512")">512 x 512</MudSelectItem>
+                <MudSelectItem T="string" Value="@("1024 x 1024")">1024 x 1024</MudSelectItem>
+            </MudSelect>
+        </MudElement>
+    </MudPaper>
+    <MudElement HtmlTag="div" Class="d-flex flex-wrap">
+        @if (_imageResponse is not null)
+        {
+            <MudImage Src="@_imageResponse.Output.First()"/>
+        }
+    </MudElement>
+</MudElement>
+
+@code {
+    private GenerateImageRequest _imageSettings = new();
+    private GenerateImage? _imageResponse;
+
+    private string _selectedScreen = "512 x 512";
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var test = (await _generatorImages.GenerateImage(new GenerateImageRequest(
+            key: "UkLTIoRUUW9Kksv0bS31L8nlh4neFONMTk7GOwhyM0kOUjUWhyESo4i6WJx4",
+            prompt: "ultra realistic close up portrait ((beautiful pale cyberpunk female with heavy black eyeliner)), blue eyes, shaved side haircut, hyper detail, cinematic lighting, magic neon, dark red city, Canon EOS R3, nikon, f/1.4, ISO 200, 1/160s, 8K, RAW, unedited, symmetrical balance, in-frame, 8K",
+            negativePrompt: "((out of frame)), ((extra fingers)), mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), (((tiling))), ((naked)), ((tile)), ((fleshpile)), ((ugly)), (((abstract))), blurry, ((bad anatomy)), ((bad proportions)), ((extra limbs)), cloned face, (((skinny))), glitchy, ((extra breasts)), ((double torso)), ((extra arms)), ((extra hands)), ((mangled fingers)), ((missing breasts)), (missing lips), ((ugly face)), ((fat)), ((extra legs))",
+            width: "512",
+            height: "512",
+            samples: "1",
+            numInferenceSteps: "20",
+            safetyChecker: "no",
+            enhancePrompt: "yes",
+            temp: "yes",
+            seed: null,
+            guidanceScale: 7.5,
+            webhook: null,
+            trackId: null))).Data;
+        Console.WriteLine(test.Id);
+        await base.OnInitializedAsync();
+    }
+
+}

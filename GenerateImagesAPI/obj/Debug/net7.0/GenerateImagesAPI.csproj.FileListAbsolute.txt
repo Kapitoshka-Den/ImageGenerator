@@ -1,0 +1,15 @@
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\bin\Debug\net7.0\GenerateImagesAPI.deps.json
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\bin\Debug\net7.0\GenerateImagesAPI.dll
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\bin\Debug\net7.0\GenerateImagesAPI.pdb
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.csproj.AssemblyReference.cache
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.AssemblyInfoInputs.cache
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.AssemblyInfo.cs
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.csproj.CoreCompileInputs.cache
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.csproj.CopyComplete
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.dll
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\refint\GenerateImagesAPI.dll
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\GenerateImagesAPI.pdb
+C:\Users\Garveks\RiderProjects\ImageGenerator\GenerateImagesAPI\obj\Debug\net7.0\ref\GenerateImagesAPI.dll

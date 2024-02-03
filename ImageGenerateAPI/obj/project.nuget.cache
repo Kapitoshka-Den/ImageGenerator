@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "grORMZt7ukxjVkjHuGFpQouScVFT4QaUqj5EVjhv6ul8XqDASYZrZ/3SaKuS6Bpuks2F8yMgnj5/BHYPdqhw7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerateAPI\\ImageGenerateAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Garveks\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Garveks\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Garveks\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

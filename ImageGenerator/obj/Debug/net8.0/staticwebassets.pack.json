@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\obj\\Debug\\net8.0\\compressed\\ng1hi70zfi.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ImageGenerator.styles.css",
+      "PackagePath": "staticwebassets\\ImageGenerator.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Garveks\\RiderProjects\\ImageGenerator\\ImageGenerator\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ImageGenerator.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ImageGenerator.props",
+      "PackagePath": "build\\ImageGenerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ImageGenerator.props",
+      "PackagePath": "buildMultiTargeting\\ImageGenerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ImageGenerator.props",
+      "PackagePath": "buildTransitive\\ImageGenerator.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
